@@ -1,0 +1,31 @@
+Collection
+
+Queue
+
+Linked Queue
+Priority Queue
+Blocking Queue -> Priority Blocking Queue / Linked Blocking Queue
+
+FIFO
+
+------------------------------------------------------
+
+import java.util.Collection;
+
+public class QueueInterfaceDemo<E> extends Collection<E> {
+
+    Boolean add(E e);
+
+    Boolean offer(E e);
+
+    E remove();
+
+    E poll();
+
+    E element();
+
+    E peek();
+
+}
+---------------------------------------------------------
+ 
